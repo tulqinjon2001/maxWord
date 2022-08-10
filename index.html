@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+</head>
+<body>  
+  <div class="max-word container py-4 bg-light">
+    <form class="max-word-form row" method="POST">
+      <label class="" for="max-word-label">Kerakli so'zni kiriting!</label>
+
+      <textarea class="max-word-textarea px-3 my-4 bg-warning" id="max-word-label" type="text" required></textarea>
+
+      <button class="btn bg-info mx-auto w-25" type="submit">Tekshirish</button>
+    </form>
+
+    <span class="bg-danger p-2">Max Word:</span>
+    <output class="max-word-out bg-danger p-2"></output>
+  </div>
+
+  <!-- Second work -->
+
+  <div class="max-num container py-4 px-4 mt-5 bg-light">
+    <form class="max-num-form row" method="POST">
+      <label class="" for="max-num-label">Kerakli so'zni kiriting!</label>
+
+      <input class="max-num-textarea px-3 my-4 bg-white w-25" id="max-num-label" type="number" required></input>
+
+      <button class="btn bg-info mx-auto w-25" type="submit">Qo'shish</button>
+    </form>
+
+    <span>Siz kiritgan sonlar:</span>
+    <ul class="max-num-out bg-danger p-3"></ul>
+  </div>
+
+  <!-- Third work -->
+
+
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
